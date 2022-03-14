@@ -1,0 +1,64 @@
+.heading-seperator{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+.seperator-line{
+    width: 20%;
+    height: 3px;
+    background-color: #1f221f;
+}
+.seperator-blob{
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.seperator-blob div {
+    width: 35px;
+    border-radius: 10px;
+    background-color: var(--dark-orange);
+}
+.about-me-card{
+    /* display: flex; */
+    width: 100%;
+    box-shadow: 0 0 20px -2px #1f2235;
+}
+.about-me-options img{
+width: 10%;
+}
+/* .about-me-profile{
+    width: 50%;
+    background-image: url("../../Assets/Home/about-billal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+} */
+.first-word{
+    font-size: 1.5rem;
+}
+.about-me-details{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+    
+}
+.highlight{
+    display: flex;
+    
+    margin: 5px 0;
+    
+}
+.highlight-blob{
+    height: 15px;
+    width: 15px;
+    background-color: #ff5823;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-top: 4px;
+}

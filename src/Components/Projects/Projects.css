@@ -1,0 +1,48 @@
+.project-card-view{
+    box-shadow: 0 4px 5px 3px #1b6149;
+    color: #fff;
+    background-color: transparent;
+    
+    /* transition: all .5s ease 0s; */
+    
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.card-title{
+    margin-bottom: 0.75rem;
+}
+/* .project-card-view:hover{
+    transform: scale(1.02) ;
+    overflow: hidden ;
+    box-shadow: rgb(27, 97, 73) 0px 4px 4px 5px ;
+} */
+.img-card{
+height: 100%;
+min-height: 240px;
+overflow: hidden;
+cursor: pointer;
+transition: background-position 5s ease-in-out 0s;
+background-position: top center ;
+background-image: url("../../Assets/MacBook\ Pro\ -\ 3.png");
+background-size: cover;
+border-radius: 10px;
+}
+
+.img-card:hover{
+    background-position: bottom center;
+}

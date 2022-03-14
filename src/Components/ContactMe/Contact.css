@@ -1,0 +1,18 @@
+.title-left{
+    font-size: 2.5rem;
+    position: relative;
+    font-weight: 700;
+}
+.form-control{
+    
+}
+.hr-line{
+    background-color: purple;
+    font-weight: 700;
+    height: 5px;
+}
+.messenger-app  img:hover,.telegram:hover{
+    transform: scale(1.2);
+    transition: all 0.6s ease ;
+
+}
